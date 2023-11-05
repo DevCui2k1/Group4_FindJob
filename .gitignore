@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Findjob/AdminClient/bin/Debug/net6.0
+/Findjob/AdminClient/obj
+/Findjob/BusinessObject/bin/Debug/net6.0
+/Findjob/BusinessObject/obj/Debug/net6.0
+/Findjob/Server/bin/Debug/net6.0
+/Findjob/Server/obj
+/Findjob/UserClient/bin/Debug/net6.0
