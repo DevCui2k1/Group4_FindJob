@@ -16,7 +16,6 @@ using FindJobSolution.ViewModels.Catalog.JobSeekers;
 using FindJobSolution.ViewModels.Catalog.Recruiters;
 using FindJobSolution.ViewModels.Catalog.RecuiterImages;
 using FindJobSolution.ViewModels.Catalog.SaveJob;
-using FindJobSolution.ViewModels.Catalog.Skills;
 using FindJobSolution.ViewModels.System.UsersJobSeeker;
 using FindJobSolution.ViewModels.System.UsersRecruiter;
 using FluentValidation.AspNetCore;
@@ -41,10 +40,8 @@ builder.Services.AddTransient<IJobService, JobService>();
 builder.Services.AddTransient<IJobSeekerService, JobSeekerService>();
 builder.Services.AddTransient<IJobInformationService, JobInformationService>();
 builder.Services.AddTransient<IRecruiterService, RecruiterService>();
-builder.Services.AddTransient<ISkillService, SkillService>();
 builder.Services.AddTransient<IApplyJobService, ApplyJobService>();
 builder.Services.AddTransient<ISaveJobService, SaveJobService>();
-builder.Services.AddTransient<IReportService, ReportService>();
 builder.Services.AddTransient<IAdminService, AdminService>();
 //builder.Services.AddTransient<IMessageService, MessageService>();
 
@@ -92,9 +89,6 @@ builder.Services.AddControllers().AddFluentValidation(fv => fv.RegisterValidator
 builder.Services.AddControllers().AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<JobCreateRequestValidator>());
 builder.Services.AddControllers().AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<JobUpdateRequestValidator>());
 
-//Skill
-builder.Services.AddControllers().AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<SkillCreateRequestValidator>());
-builder.Services.AddControllers().AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<SkillUpdateRequestValidator>());
 
 //ApplyJob
 builder.Services.AddControllers().AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<ApplyJobCreateRequestValidator>());
