@@ -1,0 +1,11 @@
+C:\Users\NITRO 5\Desktop\Project\Findjob\Utilities\bin\Debug\net6.0\Utilities.deps.json
+C:\Users\NITRO 5\Desktop\Project\Findjob\Utilities\bin\Debug\net6.0\Utilities.dll
+C:\Users\NITRO 5\Desktop\Project\Findjob\Utilities\bin\Debug\net6.0\Utilities.pdb
+C:\Users\NITRO 5\Desktop\Project\Findjob\Utilities\obj\Debug\net6.0\Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NITRO 5\Desktop\Project\Findjob\Utilities\obj\Debug\net6.0\Utilities.AssemblyInfoInputs.cache
+C:\Users\NITRO 5\Desktop\Project\Findjob\Utilities\obj\Debug\net6.0\Utilities.AssemblyInfo.cs
+C:\Users\NITRO 5\Desktop\Project\Findjob\Utilities\obj\Debug\net6.0\Utilities.csproj.CoreCompileInputs.cache
+C:\Users\NITRO 5\Desktop\Project\Findjob\Utilities\obj\Debug\net6.0\Utilities.dll
+C:\Users\NITRO 5\Desktop\Project\Findjob\Utilities\obj\Debug\net6.0\refint\Utilities.dll
+C:\Users\NITRO 5\Desktop\Project\Findjob\Utilities\obj\Debug\net6.0\Utilities.pdb
+C:\Users\NITRO 5\Desktop\Project\Findjob\Utilities\obj\Debug\net6.0\ref\Utilities.dll

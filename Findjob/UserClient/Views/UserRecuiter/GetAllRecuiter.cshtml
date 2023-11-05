@@ -1,0 +1,89 @@
+﻿@using FindJobSolution.ViewModels.Common
+@model PagedResult<FindJobSolution.ViewModels.Catalog.Recruiters.RecruiterVM>
+
+@{
+    ViewData["Title"] = "GetAllRecuiter";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="text-center">
+    <style>
+        .shade {
+            background-color: aqua;
+        }
+
+        .body-container {
+            /*remove the container default padding  attribute*/
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+            /*increase width as per your need*/
+            max-width: 100%;
+        }
+
+        .currSign:before {
+            content: '$';
+        }
+    </style>
+    <main>
+        <h1>Danh sách các công ty</h1>
+        <div class="job-listing-area pt-120 pb-120">
+            <div class="container">
+                <div class="row">
+                    <!-- Left content -->
+                    
+                    <!-- Right content -->
+                    <div class="col-xl-9 col-lg-9 col-md-8">
+                        <!-- Featured_job_start -->
+                        <section class="featured-job-area">
+                            <div class="container">
+                                <!-- Count of Job list Start -->
+                                <form method="get" asp-action="GetAllRecuiter" class="search-box">
+                                    <div class="input-form" style="width:75%">
+                                        <input type="search" placeholder="Tên công ty" name="keyWord" >
+                                    </div>
+                                    <input type="submit" class="search-form" value="Tìm công ty" style="width:25%; background: #fb246a; text-align: center; color: #fff; display: block; padding: 15px; border-radius: 0px; text-transform: capitalize; letter-spacing: 0.1em; line-height: 38px; font-size: 14px; border-width: 0px;cursor:pointer" />
+                                </form>
+                                <!-- Count of Job list End -->
+                                @foreach (var item in Model.Items)
+                                {                                  
+                                        <!-- single-job-content -->
+                                        <div class="single-job-items mb-30">
+                                            <div class="job-items">
+                                                <div class="company-img">
+                                                </div>
+                                                <div class="job-tittle job-tittle2">
+                                                    
+                                                    <ul>
+                                                    <a href="~/UserRecuiter/IndexRecuiter/@item.RecruiterId">
+                                                        <li>@Html.DisplayFor(modelItem => item.CompanyName)</li>
+                                                    </a>
+                                                    <br></br>
+                                                        <li><i class="fas fa-map-marker-alt"></i>@Html.DisplayFor(modelItem => item.Address)</li>
+                                                    
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="items-link items-link2 f-right">
+                                            <img href="~/UserRecuiter/IndexRecuiter/@item.RecruiterId" src="http://127.0.0.1:2001/@Html.DisplayFor(modelItem=> item.ThumbnailCv)" alt="image" style="width: 100px"/>
+                                            </div>
+                                        </div>
+                                }
+                            </div>
+                        </section>
+                        <!-- Featured_job_end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <script>
+        let x = document.querySelectorAll(".myDIV");
+        for (let i = 0, len = x.length; i < len; i++) {
+            let num = Number(x[i].innerHTML)
+                      .toLocaleString('en');
+            x[i].innerHTML = num;
+            x[i].classList.add("currSign");
+        }
+    </script>
+</div>
+

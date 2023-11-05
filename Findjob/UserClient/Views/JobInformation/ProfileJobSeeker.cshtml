@@ -1,0 +1,157 @@
+﻿@model FindJobSolution.ViewModels.Catalog.JobSeekers.JobSeekerViewModel
+
+@{
+    ViewData["Title"] = "ProfileJobSeeker";
+    Layout = "~/Views/Shared/_Layout3.cshtml";
+}
+<div class="container-fluid px-4">
+    <h1 class="mt-4">Chi tiết người ứng tuyển</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item"><a href="/home/index">Trang chủ</a></li>
+        <li class="breadcrumb-item active">Chi tiết người ứng tuyển</li>
+    </ol>
+
+    <div class="card mb-4">
+        <div class="card-header">
+            <a class="btn btn-success" asp-action="index" asp-controller="JobInformation">Trở lại danh sách</a>
+        </div>
+        <div class="card-body">
+            <hr />
+            <div class="row">
+                <div class="col-md-12">
+                    <div>
+                        <div class="ContactInformation_contactInformationComponent__2Rwzr">
+
+                            <h2 class="ContactInformation_blockTitle__VfSNg">Thông tin ứng viên @Html.DisplayFor(model => model.Name)</h2>
+                            <div>
+                                <div class="ContactInfoView_viewSectionWrapper__2SQdc">
+                                    <div class="native-grid">
+                                        <dl class="row">
+
+                                            <dt class="col-sm-2">
+                                                Ảnh đại diện 
+                                            </dt>
+                                            <dd class="col-sm-10">
+                                                <img src="http://127.0.0.1:2001/@Html.DisplayFor(model=> model.Avatar)" alt="image" style="width: 150px" />
+                                            </dd>
+                                        </dl>
+                                        <div class="roww">
+                                            <div class="col-lg-66">
+                                                <div class="undefied roww">
+                                                    <span class="undefied col-44">Email</span>
+                                                    <div class="col-88 text-truncate fw-6">@Html.DisplayFor(model => model.Email)</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-66">
+                                                <div>
+                                                    <div class="roww">
+                                                        <div class="col-44">
+                                                            <span>Điện thoại</span>
+                                                        </div>
+                                                        <div class="col-88">
+                                                            <span class="fw-6">@Html.DisplayFor(model => model.PhoneNumber)</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="roww">
+                                            <div class="col-lg-66">
+                                                <div class="roww">
+                                                    <div class="col-44">
+                                                        <span>Ngày sinh</span>
+                                                    </div>
+                                                    <div class="col-88">
+                                                        <span class="fw-6">@Html.DisplayFor(model => model.Dob)</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-66">
+                                                <div>
+                                                    <div class="roww">
+                                                        <div class="col-44">
+                                                            <span>Quốc tịch</span>
+                                                        </div>
+                                                        <div class="col-88">
+                                                            <span class="fw-6">@Html.DisplayFor(model => model.National)</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="roww">
+                                            <div class="col-lg-66">
+                                                <div class="roww">
+                                                    <div class="col-44">
+                                                        <span>Giới tính</span>
+                                                    </div>
+                                                    <div class="col-88">
+                                                        <span class="fw-6">@Html.DisplayFor(model => model.Gender)</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="roww">
+                                            <div class="undefied col-22" style="grid-column: span 8;">
+                                                <div class="roww">
+                                                    <span class="undefied col-44">Ngành nghề</span>
+                                                    <div class="col-88">
+                                                        <span class="fw-6" style="margin-left: -25px;">@ViewBag.JobNamed</span>
+                                                    </div>
+                                                    <div class="col-88">
+                                                        @*@if (HttpContextAccessor.HttpContext.Session.GetString("Email") != null)
+                                                        {
+                                                        var email = HttpContextAccessor.HttpContext.Session.GetString("Email");
+                                                        QLTDContext context = new QLTDContext();
+                                                        NguoiTimViec ntv = context.NguoiTimViecs.SingleOrDefault(p => p.Email == email);
+                                                        NganhNghe nn = context.NganhNghes.SingleOrDefault(p => p.Id == ntv.MaNganhNghe);
+                                                        <span class="fw-6" style="margin-left: -25px;">
+                                                        @nn.TenNganhNghe
+                                                        </span>
+                                                        }*@
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="roww">
+                                            <div class="undefied col-22" style="grid-column: span 8;">
+                                                <div class="roww">
+                                                    <span class="undefied col-44">Lương mong muốn</span>
+                                                    <div class="col-88">
+                                                        <span class="fw-6" style="margin-left: -25px;">@Html.DisplayFor(model => model.DesiredSalary)$</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="roww">
+                                            <div class="undefied col-22">
+                                                <div class="roww">
+                                                    <div class="col-44">
+                                                        <span>Địa chỉ</span>
+                                                    </div>
+                                                    <div class="col-88">
+                                                        <div class="fw-6 text-truncate">@Html.DisplayFor(model => model.Address)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <dl class="row">
+                            
+                            <dt class="col-sm-2">
+                                CV ứng viên
+                            </dt>
+                            <dd class="col-sm-10">
+                                <a target="_blank" href="http://127.0.0.1:2001/@Html.DisplayFor(model => model.ThumbnailCv)" style="color: black;">Xem cv tại đây</a>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

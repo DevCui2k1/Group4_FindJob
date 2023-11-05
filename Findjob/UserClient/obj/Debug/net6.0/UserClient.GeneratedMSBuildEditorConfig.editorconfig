@@ -1,0 +1,265 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = UserClient
+build_property.RootNamespace = UserClient
+build_property.ProjectDir = C:\Users\NITRO 5\Desktop\Project\Findjob\UserClient\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\NITRO 5\Desktop\Project\Findjob\UserClient
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Home/IndexRecuiter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleFJlY3VpdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Home/JobDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxKb2JEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Home/JobList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxKb2JMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Home/Report.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXBvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/JobInformation/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iSW5mb3JtYXRpb25cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/JobInformation/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iSW5mb3JtYXRpb25cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/JobInformation/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iSW5mb3JtYXRpb25cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/JobInformation/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iSW5mb3JtYXRpb25cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/JobInformation/EditStatus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iSW5mb3JtYXRpb25cRWRpdFN0YXR1cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/JobInformation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iSW5mb3JtYXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/JobInformation/JobSeekerApply.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iSW5mb3JtYXRpb25cSm9iU2Vla2VyQXBwbHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/JobInformation/OverDue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iSW5mb3JtYXRpb25cT3ZlckR1ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/JobInformation/ProfileJobSeeker.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iSW5mb3JtYXRpb25cUHJvZmlsZUpvYlNlZWtlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Pages/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcaW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Shared/Components/Pager/Defaut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUGFnZXJcRGVmYXV0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Shared/Index(Recuiter).cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEluZGV4KFJlY3VpdGVyKS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Shared/Index(template).cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEluZGV4KHRlbXBsYXRlKS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Shared/job_details(template).cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXGpvYl9kZXRhaWxzKHRlbXBsYXRlKS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Shared/job_listing(template).cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXGpvYl9saXN0aW5nKHRlbXBsYXRlKS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Shared/LoginEmployer(old).cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExvZ2luRW1wbG95ZXIob2xkKS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Shared/LoginJobSeeker(old).cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExvZ2luSm9iU2Vla2VyKG9sZCkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Shared/RegisterEmployer(old).cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFJlZ2lzdGVyRW1wbG95ZXIob2xkKS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Shared/RegisterJobSeeker(old).cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFJlZ2lzdGVySm9iU2Vla2VyKG9sZCkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Shared/_BlogAreaPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CbG9nQXJlYVBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Shared/_FooterPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Shared/_HeaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Shared/_HowApplyProcessPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ib3dBcHBseVByb2Nlc3NQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Shared/_Layout2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Shared/_Layout3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Shared/_Layout4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Shared/_layoutchat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9sYXlvdXRjaGF0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Shared/_LayoutInhertit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRJbmhlcnRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Shared/_OurServicesPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9PdXJTZXJ2aWNlc1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Shared/_SlideAreaPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TbGlkZUFyZWFQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Shared/_SuportCompanyPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdXBvcnRDb21wYW55UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Shared/_TestimonialPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9UZXN0aW1vbmlhbFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/UserJobSeeker/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckpvYlNlZWtlclxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/UserJobSeeker/ChangePasswordWithToken.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckpvYlNlZWtlclxDaGFuZ2VQYXNzd29yZFdpdGhUb2tlbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/UserJobSeeker/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckpvYlNlZWtlclxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/UserJobSeeker/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckpvYlNlZWtlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/UserJobSeeker/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckpvYlNlZWtlclxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/UserJobSeeker/UserJob.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckpvYlNlZWtlclxVc2VySm9iLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/UserJobSeeker/UserOldCompanyEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckpvYlNlZWtlclxVc2VyT2xkQ29tcGFueUVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/UserJobSeeker/UserProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckpvYlNlZWtlclxVc2VyUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/UserJobSeeker/UserProfileEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckpvYlNlZWtlclxVc2VyUHJvZmlsZUVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/UserRecuiter/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJlY3VpdGVyXENoYW5nZVBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/UserRecuiter/ChangePasswordWithToken.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJlY3VpdGVyXENoYW5nZVBhc3N3b3JkV2l0aFRva2VuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/UserRecuiter/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJlY3VpdGVyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/UserRecuiter/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJlY3VpdGVyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/UserRecuiter/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJlY3VpdGVyXEZvcmdvdFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/UserRecuiter/GetAllRecuiter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJlY3VpdGVyXEdldEFsbFJlY3VpdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/UserRecuiter/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJlY3VpdGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/UserRecuiter/IndexRecuiter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJlY3VpdGVyXEluZGV4UmVjdWl0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/UserRecuiter/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJlY3VpdGVyXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/UserRecuiter/UserProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJlY3VpdGVyXFVzZXJQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO 5/Desktop/Project/Findjob/UserClient/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-7vjf0fa07c
