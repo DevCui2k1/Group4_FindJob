@@ -8,15 +8,12 @@
 	<ol class="breadcrumb mb-4">
 		<li class="breadcrumb-item active">Thống kê website</li>
 	</ol>
-	<div class="row">
+	<div class="row row-cols-4">
 		<div class="col-xl-3 col-md-6">
 			<div class="card bg-primary text-white mb-4">
 				<div class="card-body">
 					<a style="font-weight: bold; font-size: 40px;">@Html.DisplayFor(model =>  model.TotalJobSeeker)</a>
 					<a>Người tìm việc</a>
-				</div>
-				<div class="card-footer d-flex align-items-center justify-content-between">
-					<div class="small text-white"><i class="fas fa-angle-right"></i></div>
 				</div>
 			</div>
 		</div>
@@ -24,11 +21,7 @@
 			<div class="card bg-warning text-white mb-4">
 				<div class="card-body">
 					<a style="font-weight: bold; font-size: 40px;">@Html.DisplayFor(model =>  model.TotalRecuiter)</a>
-					<a>Nhà tuyển dụng</>
-				</div>
-				<div class="card-footer d-flex align-items-center justify-content-between">
-
-					<div class="small text-white"><i class="fas fa-angle-right"></i></div>
+					<a>Nhà tuyển dụng</a>
 				</div>
 			</div>
 		</div>
@@ -38,46 +31,13 @@
 					<a style="font-weight: bold; font-size: 40px;"> @Html.DisplayFor(model =>  model.TotalJobInformation)</a>
 					<a>Công việc đang tuyển</a>
 				</div>
-				<div class="card-footer d-flex align-items-center justify-content-between">
-
-					<div class="small text-white"><i class="fas fa-angle-right"></i></div>
-				</div>
 			</div>
 		</div>
 		<div class="col-xl-3 col-md-6">
-			<div class="card bg-danger text-white mb-4">
-				<div class="card-body">
-					<a style="font-weight: bold; font-size: 40px;">@Html.DisplayFor(model =>  model.TotalJobApply)</a>
-					<a>Cv ứng tuyển</a>
-				</div>
-				<div class="card-footer d-flex align-items-center justify-content-between">
-
-					<div class="small text-white"><i class="fas fa-angle-right"></i></div>
-				</div>
-			</div>
-		</div>
-
-		<div class="col-xl-3 col-md-6">
-			<div class="card bg-danger text-white mb-4">
-				<div class="card-body">
-					<a style="font-weight: bold; font-size: 40px;">@Html.DisplayFor(model =>  model.TotalCv)</a>
-					<a>Cv trong website</a>
-				</div>
-				<div class="card-footer d-flex align-items-center justify-content-between">
-
-					<div class="small text-white"><i class="fas fa-angle-right"></i></div>
-				</div>
-			</div>
-		</div>
-		<div class="col-xl-3 col-md-6">
-			<div class="card bg-success text-white mb-4">
+			<div class="card bg-info text-white mb-4">
 				<div class="card-body">
 					<a style="font-weight: bold; font-size: 40px;"> @Html.DisplayFor(model =>  model.TotalJob)</a>
 					<a>Ngành nghề</a>
-				</div>
-				<div class="card-footer d-flex align-items-center justify-content-between">
-
-					<div class="small text-white"><i class="fas fa-angle-right"></i></div>
 				</div>
 			</div>
 		</div>
